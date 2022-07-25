@@ -2,13 +2,25 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
+    padding: var(--horizontal-space);
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 .screen-header__title{
     font-size: 32px;
     font-weight: 600;
 }
-.screen-header__icons span {
+.screen-header__icons i {
     margin-left: 25px;
+}
+.ellipsis {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top:45px;
 }
